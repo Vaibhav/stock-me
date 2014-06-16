@@ -2,8 +2,8 @@
 import os
 
 
-dotfile = os.path.join(os.path.expanduser('~'), '.stockme')
+stockfile = os.path.join(os.path.expanduser('~'), 'stockme', 'stocks')
 
 
-def get_dotfile():
-    return dotfile
+def get_stockfile():
+    return stockfile
