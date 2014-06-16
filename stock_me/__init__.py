@@ -1,6 +1,6 @@
 import argparse
 
-from .commands import (buy, check, sell, suggest)
+from .commands import (buy, check, lookup, sell, suggest)
 
 
 __version__ = 'alpha'
@@ -26,12 +26,15 @@ def get_params():
 
 def execute_from_command_line():
     command, stocks = get_params()
+    stocks = [s.upper() for s in stocks]
 
-    if command[0] in {'check'}:
-        check.run(stocks)
+    if command[0] in {'lookup'}:
+        lookup.run(stocks)
     elif command[0] in {'buy'}:
         buy.run(stocks)
     elif command[0] in {'sell'}:
         sell.run(stocks)
+    elif command[0] in {'check'}:
+        check.run()
     elif command[0] in {'suggest'}:
         suggest.run()
