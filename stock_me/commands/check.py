@@ -1,15 +1,13 @@
+#!/usr/bin/env python
 from __future__ import division
-
-import os
 
 import ystockquote
 
-
-datafile = os.path.join(os.path.expanduser('~'), '.stockme')
+from ..locations import get_dotfile
 
 
 def run():
-    for line in open(datafile, 'r').readlines():
+    for line in open(get_dotfile(), 'r').readlines():
         purchased = line.split()
         current = ystockquote.get_price(purchased[0])
         difference = 100 * round(float(current) / float(purchased[1]) - 1, 5)
