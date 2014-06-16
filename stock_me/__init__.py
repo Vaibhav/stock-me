@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import argparse
 
-from .commands import (buy, check, lookup, sell, suggest, ticker)
+from .commands import (buy, check, lookup, sell, suggest, ticker, watch)
 
 
 __version__ = 'alpha'
@@ -41,3 +41,5 @@ def execute_from_command_line():
         suggest.run()
     elif command[0] in {'ticker'}:
         ticker.run(stocks)
+    elif command[0] in {'watch'}:
+        watch.run()

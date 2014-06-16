@@ -12,7 +12,7 @@ def run(stocks):
         if any(line.startswith(stock) for stock in stocks):
             purchased = line.split()
             current = ystockquote.get_price(purchased[0])
-            profit = (float(current) - float(purchased[1]))
+            profit = round(float(current) - float(purchased[1]), 3)
             overall += profit
 
             print 'Sold', purchased[0], 'at', current + '.',
