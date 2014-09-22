@@ -1,9 +1,9 @@
 StockMe
 =======
 
-[![Build Status](https://travis-ci.org/git@github.com:TheKevJames/stock-me.git/git@github.com:TheKevJames/stock-me.git.svg?branch=master)](https://travis-ci.org/git@github.com:TheKevJames/stock-me.git/git@github.com:TheKevJames/stock-me.git)
-[![Coverage Status](https://coveralls.io/repos/git@github.com:TheKevJames/stock-me.git/git@github.com:TheKevJames/stock-me.git/badge.png?branch=master)](https://coveralls.io/r/git@github.com:TheKevJames/stock-me.git/git@github.com:TheKevJames/stock-me.git?branch=master)
-[![Dependency Status](https://gemnasium.com/git@github.com:TheKevJames/stock-me.git/git@github.com:TheKevJames/stock-me.git.svg)](https://gemnasium.com/git@github.com:TheKevJames/stock-me.git/git@github.com:TheKevJames/stock-me.git)
+[![Build Status](https://travis-ci.org/TheKevJames/stock-me.svg?branch=master)](https://travis-ci.org/TheKevJames/stock-me.git)
+[![Coverage Status](https://coveralls.io/repos/TheKevJames/stock-me/badge.png?branch=master)](https://coveralls.io/r/TheKevJames/stock-me?branch=master)
+[![Dependency Status](https://gemnasium.com/TheKevJames/stock-me.svg)](https://gemnasium.com/TheKevJames/stock-me)
 
 
 StockMe is a simple command-line utility for evaluating stock trends.
