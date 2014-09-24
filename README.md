@@ -1,9 +1,8 @@
 StockMe
 =======
 
-[![Build Status](https://travis-ci.org/TheKevJames/stock-me.svg?branch=master)](https://travis-ci.org/TheKevJames/stock-me.git)
-[![Coverage Status](https://coveralls.io/repos/TheKevJames/stock-me/badge.png?branch=master)](https://coveralls.io/r/TheKevJames/stock-me?branch=master)
-[![Dependency Status](https://gemnasium.com/TheKevJames/stock-me.svg)](https://gemnasium.com/TheKevJames/stock-me)
+[![Build Status](https://api.shippable.com/projects/540f508c5adf368bc3902884/badge?branchName=master)](https://app.shippable.com/projects/540f508c5adf368bc3902884/builds/latest)
+[![Requirements Status](https://requires.io/github/TheKevJames/stock-me/requirements.svg?branch=master)](https://requires.io/github/TheKevJames/stock-me/requirements/?branch=master)
 
 
 StockMe is a simple command-line utility for evaluating stock trends.
