@@ -18,6 +18,7 @@ def run(stocks):
     except KeyboardInterrupt:
         return
 
+
 def tick(stocks):
     for stock in stocks:
         print ystockquote.get_price(stock).ljust(8),
