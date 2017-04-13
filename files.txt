@@ -1,3 +1,0 @@
-c:\intelpython27\lib\site-packages\stock_me-alpha-py2.7.egg
-C:\IntelPython27\Scripts\stock-me-script.py
-C:\IntelPython27\Scripts\stock-me.exe
