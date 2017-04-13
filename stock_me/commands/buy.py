@@ -8,6 +8,6 @@ def run(stocks):
     with open(get_stockfile(), 'a') as data:
         for stock in stocks:
             current = ystockquote.get_price(stock)
-            data.write(stock + ' ' + current + '\n')
-
+            if isinstance(current, float):
+                data.write(stock + ' ' + current + '\n')
             print 'Purchased', stock, 'at', current
