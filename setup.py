@@ -16,7 +16,7 @@ with open('requirements-dev.txt', 'r') as f:
     requirements_dev = filter(lambda x: '==' in x, requirements_dev)
 
 
-setuptoolssetup(
+setuptools.setup(
     name='stock-me',
     version=__version__,
     description='stock-me',
